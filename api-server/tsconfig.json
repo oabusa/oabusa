@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                 // modern JS features
+    "module": "ES2020",                 // ✅ use native ESM
+    "moduleResolution": "node",         // resolves imports like Node
+    "outDir": "./dist",                 // output directory
+    "esModuleInterop": true,            // allows importing CommonJS packages
+    "strict": true,                     // enables strict type checking
+    "skipLibCheck": true                // skips type checks on dependencies
+  },
+  "include": ["./**/*.ts"]
+}
